@@ -1,8 +1,15 @@
 aid: saucey
 name: Saucey
-description: Saucey is a company surfaced as a portfolio company of 500-global, bullpen-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Saucey is an on-demand alcohol delivery service that brings beer, wine, and
+  spirits from local retailers to customers' doors, often in under an hour,
+  across a growing list of US markets. Founded in 2013 and headquartered in Los
+  Angeles, the company operates consumer iOS, Android, and web ordering
+  experiences, a Saucey Club membership offering free delivery and perks, and a
+  retailer/brand partnership program. Saucey is backed by 500 Global and Bullpen
+  Capital. This profile tracks Saucey in the API Evangelist network; as of this
+  enrichment pass Saucey publishes no public developer portal, API reference, or
+  machine-readable API specification.
 url: https://raw.githubusercontent.com/api-evangelist/saucey/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +18,34 @@ x-backed-by:
 - bullpen-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Alcohol Delivery
+- On-Demand Delivery
+- E-Commerce
+- Logistics
+- Consumer
+- Marketplace
+image: https://saucey.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/saucey-domain-security.yml
 - type: Website
-  url: https://sauceyapp.com
+  url: https://saucey.com
+- type: Blog
+  url: https://blog.saucey.com
+- type: Support
+  url: https://intercom.help/saucey
+- type: TermsOfService
+  url: https://saucey.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://saucey.com/privacy-policy
